@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box Model</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <nav>
+            <div class="logo">
+                <a href="#">
+                    <h4>FLEXBOX PROJECT</h4>
+                </a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <section class="banner">
+            <img src="assets/images/banner-pic.jpg" alt="">
+        </section>
+        <section class="content">
+            <div class="content-header">
+                <h1>Welcome to Our Website</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto nulla porro et aperiam libero impedit necessitatibus harum sequi cumque itaque,consectetur adipisicing elit. Architecto nulla porro et aperiam libero impedit necessitatibus harum sequi cumque itaque</p>
+            </div>
+            <div class="content-mission">
+                <div class="content-item">
+                    <h3>Our Mission</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, expedita nemo ab amet nulla illo!expedita nemo ab amet nulla illo!expedita nemo ab amet nulla illo!</p>
+                </div>
+                <div class="content-item">
+                    <h3>Our Vission</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, expedita nemo ab amet nulla illo!expedita nemo ab amet nulla illo!expedita nemo ab amet nulla illo!</p>
+                </div>
+                <div class="content-item">
+                    <h3>Our History</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, expedita nemo ab amet nulla illo!expedita nemo ab amet nulla illo!expedita nemo ab amet nulla illo!</p>
+                </div>
+            </div>
+        </section>
+    </header>
+    <!-- main part -->
+    <main class="container">
+       <section class="service">
+            <div class="service-container">
+                <h2>Services</h2>
+                <div class="service-parent">
+                    <div class="service-item">
+                        <h3>Service Title</h3>
+                        <img src="assets/images/item1.jpg" alt="">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est nobis, distinctio error exercitationem dolorum doloremque?</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                    <div class="service-item">
+                        <h3>Service Title</h3>
+                        <img src="assets/images/item2.jpg" alt="">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est nobis, distinctio error exercitationem dolorum doloremque?</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                    <div class="service-item">
+                        <h3>Service Title</h3>
+                        <img src="assets/images/item3.jpg" alt="">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est nobis, distinctio error exercitationem dolorum doloremque?</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+       </section> 
+       <!-- gallery -->
+       <section class="gallery-main">
+            <div class="gallery-area">
+                <h2>Gallery</h2>
+                <div class="gallery-parent">
+                    <div class="gallery-items">
+                        <img src="assets/images/gallery1.jpg" alt="">
+                    </div>
+                    <div class="gallery-items">
+                        <img src="assets/images/gallery2.jpg" alt="">
+                    </div>
+                    <div class="gallery-items">
+                        <img src="assets/images/gallery3.jpg" alt="">
+                    </div>
+                    <div class="gallery-items">
+                        <img src="assets/images/gallery4.jpg" alt="">
+                    </div>
+                    <div class="gallery-items">
+                        <img src="assets/images/gallery5.jpg" alt="">
+                    </div>
+                    <div class="gallery-items">
+                        <img src="assets/images/gallery6.jpg" alt="">
+                    </div>
+                    <div class="gallery-items">
+                        <img src="assets/images/gallery7.jpg" alt="">
+                    </div>
+                    <div class="gallery-items">
+                        <img src="assets/images/gallery8.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+       </section>
+       <section class="contact-main">
+            <div class="contact-area">
+                <h2>Contact</h2>
+                <div class="contact-parent">
+                    <div class="form-area">
+                        <form action="#">
+                            <input type="text"  placeholder="Name" class="name" required><br>
+                            <input type="text" placeholder="Subject" class="subject" required><br>
+                            <input type="email" placeholder="Email" class="email" required><br>
+                            <textarea name="message" id="message" placeholder="Message" cols="30" rows="10"></textarea><br>
+                            <input type="submit" value="Send" class="submit">
+                        </form>
+                    </div>
+                    <div class="address-area">
+                        <div class="address-items">
+                            <h3>Address</h3>
+                            <p>123, newyork, usa</p>
+                        </div>
+                        <div class="address-items">
+                            <h3>Email</h3>
+                            <p>info@gmail.com</p>
+                        </div>
+                        <div class="address-items">
+                            <h3>Phone</h3>
+                            <p>+880 123 4567 89</p>
+                        </div>
+                        <div class="address-items">
+                            <h3>Website</h3>
+                            <p>www.example.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </section>
+    </main>
+    <footer class="footer-area">
+        <section class="copyrights">
+            &copy; 2023 All Rights Reserved by Shimul Dio
+        </section>
+    </footer>
+    
+</body>
+</html>
